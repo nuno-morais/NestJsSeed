@@ -11,17 +11,18 @@ A simple starter project demonstrating the basic concepts of NEST.
 - open browser to http://localhost:3000
 
 # What kind of variables can you configure in the .env file?
-AUTH0_CLIENT_SECRET=<TOKEN HERE>
-AUTH0_CLIENT_ID=<TOKEN HERE>
-AUTH0_DOMAIN=<URL HERE>
-PORT=<3000>
-DB_DRIVER=<sqlite>
-DB_HOST=<host>
-DB_PORT=<port>
-DB_USERNAME=<username>
-DB_PASSWORD=<password>
-DB_NAME=<dbName>
-DB_STORAGE_NAME=<db.lite>
+
+- AUTH0_CLIENT_SECRET=(TOKEN HERE)
+- AUTH0_CLIENT_ID=(TOKEN HERE)
+- AUTH0_DOMAIN=(URL HERE)
+- PORT=(3000)
+- DB_DRIVER=(sqlite)
+- DB_HOST=(host)
+- DB_PORT=(port)
+- DB_USERNAME=(username)
+- DB_PASSWORD=(password)
+- DB_NAME=(dbName)
+- DB_STORAGE_NAME=(db.lite)
 
 # References
 
