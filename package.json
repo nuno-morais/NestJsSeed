@@ -1,0 +1,46 @@
+{
+  "name": "projectnamehere",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xnramx/NestSeed.git"
+  },
+  "author": "NRAM",
+  "license": "MIT",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "scripts": {
+    "localstart": "nodemon -w *.*.ts --exec ts-node ./src/main.ts",
+    "start": "ts-node ./src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^3.0.0",
+    "@nestjs/core": "^3.0.0",
+    "@nestjs/microservices": "^3.0.0",
+    "@nestjs/testing": "^3.0.0",
+    "@nestjs/websockets": "^3.0.0",
+    "async": "^2.4.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.2",
+    "dotenv": "^4.0.0",
+    "i": "^0.3.5",
+    "jsonwebtoken": "^7.4.1",
+    "pug": "~2.0.0-beta3",
+    "reflect-metadata": "^0.1.10",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "request-promise-native": "^1.0.4",
+    "rxjs": "~5.0.3",
+    "sqlite3": "^3.1.8",
+    "typeorm": "0.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  }
+}
